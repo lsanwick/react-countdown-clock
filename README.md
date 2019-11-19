@@ -17,17 +17,20 @@ npm install react-countdown-clock
 ## Usage
 
 ```javascript
-<ReactCountdownClock seconds={60}
-                     color="#000"
-                     alpha={0.9}
-                     size={300}
-                     onComplete={myCallback} />
+<ReactCountdownClock
+  seconds={60}
+  color="#000"
+  alpha={0.9}
+  size={300}
+  onComplete={myCallback}
+/>
 ```
 
 ## Props
 
 | prop             | type           | default | description                                               |
-|------------------|----------------|---------|-----------------------------------------------------------|
+| ---------------- | -------------- | ------- | --------------------------------------------------------- |
+| size             | integer        | 300     | Diameter of the coundown timer, in pixels                 |
 | seconds          | integer        | 60      | Seconds to countdown                                      |
 | color            | string         | #000    | Colour of counter                                         |
 | alpha            | float          | 1.0     | Alpha transparency of counter                             |
@@ -49,5 +52,5 @@ Bugs, features and pull requests always welcome.
 
 Also, it's always just nice to hear how people are using it. Feel free to get in touch.
 
-* Email: [hugh@hcgallagher.co.uk](mailto:hugh@hcgallagher.co.uk)
-* Web: [www.hughgallagher.co.uk](http://www.hughgallagher.co.uk/)
+- Email: [hugh@hcgallagher.co.uk](mailto:hugh@hcgallagher.co.uk)
+- Web: [www.hughgallagher.co.uk](http://www.hughgallagher.co.uk/)

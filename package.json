@@ -3,6 +3,7 @@
   "version": "2.7.0",
   "description": "HTML5 canvas countdown clock React component",
   "main": "build/react-countdown-clock.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "webpack -p"
   },
